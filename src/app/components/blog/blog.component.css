@@ -1,0 +1,127 @@
+.main-bg{
+  background: #111;
+  background: green;
+  /* background: honeydew; */
+  /* background: yellow; */
+  /* background: whitesmoke; */
+   /* background: #A52A2A;
+  background: rgb(194, 27, 27);  */
+  width: 100%;
+  height: 100vh;
+}
+
+svg{
+  font-size: 130px;
+  padding-top: 5%;
+}
+
+.copy{
+  fill: none;
+  stroke: #ffff;
+  stroke-width: 1px;
+  stroke-dasharray: 8% 30%;
+  stroke-dashoffset: 0%;
+  animation: textanimation 6s infinite;
+}
+
+@keyframes textanimation {
+  100%{
+    stroke-dashoffset: -35%;
+  }
+}
+
+.copy-1{
+  stroke: #673ab7;
+  animation-delay: -1s;
+}
+.copy-2{
+  stroke: #e91e63;
+  animation-delay: -2s;
+}
+.copy-3{
+  stroke: #ff5722;
+  animation-delay: -3s;
+}
+.copy-4{
+  stroke: #f44336;
+  animation-delay: -4s;
+}
+.copy-5{
+  stroke: #ffc107;
+  animation-delay: -5s;
+}
+
+
+.brand-color{
+  color: green;
+}
+
+.pl-2{
+  padding-left: 2rem;
+}
+
+.pr-3{
+  padding-right: 100px;
+}
+
+.pr-8{
+  padding-right: 240px;
+}
+
+.pt-5{
+  padding-top: 5rem;
+}
+.letter-space{
+  letter-spacing: 2px;
+}
+
+.current{
+  text-decoration:underline  green 10px;
+  color: white;
+  padding: 20px;
+}
+.line-height-medium{
+  line-height: 1.8rem;
+}
+
+.font-medium1{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.nav-font{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-nav-link:hover{
+  background-color: green;
+  padding: 20px;
+}
+
+a:hover{
+  background-color: green;
+  padding: 30px;
+}
+
+@media (min-width:320px) and (max-width:500px){
+  .pr-8{
+    padding-right: 60px;
+  }
+}
+
+/* Tablet screen */
+@media 
+(min-width: 501px) and (max-width: 768px){
+  .pr-8{
+    padding-right: 60px;
+  } 
+}
+
+ /*Normal*/
+ @media(min-width: 769px) and (max-width: 1200px){
+  .pr-8{
+    padding-right: 80px;
+  } 
+ }

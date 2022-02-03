@@ -1,0 +1,32 @@
+.main-bg{
+  height: 800px;
+  padding: 11%;
+}
+
+a:hover{
+  padding: 20px;
+  background:green;
+  color: white;
+}
+
+a{
+  padding: 10px;
+  background: yellow;
+  color: black;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+}
+
+.font-large{
+  font-size: 100px;
+}
+
+.font-medium{
+  font-size: 50px;
+}
+
+.text-pink{
+  color: pink;
+}
